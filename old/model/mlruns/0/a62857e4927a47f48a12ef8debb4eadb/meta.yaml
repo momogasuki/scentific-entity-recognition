@@ -1,0 +1,15 @@
+artifact_uri: file:///home/melodia/proj/11711/hw2/scentific-entity-recognition/model/mlruns/0/a62857e4927a47f48a12ef8debb4eadb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a62857e4927a47f48a12ef8debb4eadb
+run_uuid: a62857e4927a47f48a12ef8debb4eadb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1666651817794
+status: 1
+tags: []
+user_id: melodia
