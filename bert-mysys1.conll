@@ -1,7 +1,7 @@
 MNLI	B-DatasetName
-Multi	B-TaskName
--	I-TaskName
-Genre	I-TaskName
+Multi	B-DatasetName
+-	I-DatasetName
+Genre	I-DatasetName
 Natural	I-TaskName
 Language	I-TaskName
 Inference	I-TaskName
@@ -10,8 +10,8 @@ a	O
 large	O
 -	O
 scale,	O
-crowdsourced	B-TaskName
-entailment	I-TaskName
+crowdsourced	O
+entailment	B-TaskName
 classification	I-TaskName
 task	O
 (	O
@@ -68,8 +68,8 @@ are	O
 reported	O
 for	O
 STS	B-DatasetName
--	I-MethodName
-B	I-MethodName
+-	I-DatasetName
+B	I-DatasetName
 ,	O
 and	O
 accuracy	B-MetricName
@@ -137,7 +137,7 @@ results	O
 on	O
 two	O
 model	B-HyperparameterName
-sizes	I-HyperparameterName
+sizes	O
 :	O
 BERTBASE	B-MethodName
 (	O
@@ -150,7 +150,7 @@ H	B-HyperparameterName
 768	B-HyperparameterValue
 ,	O
 A	B-HyperparameterName
-=	I-HyperparameterName
+=	O
 12	B-HyperparameterValue
 ,	O
 Total	B-HyperparameterName
@@ -170,13 +170,13 @@ H	B-HyperparameterName
 1024	B-HyperparameterValue
 ,	O
 A	B-HyperparameterName
-=	I-HyperparameterName
+=	O
 16	B-HyperparameterValue
 ,	O
 Total	B-HyperparameterName
 Parameters	I-HyperparameterName
 =	O
-340M	O
+340M	B-HyperparameterValue
 )	O
 .	O
 
@@ -199,8 +199,8 @@ BERT	B-MethodName
 Bidirectional	B-MethodName
 Encoder	I-MethodName
 Representations	I-MethodName
-from	O
-Transformers	O
+from	I-MethodName
+Transformers	I-MethodName
 .	O
 BERT	B-MethodName
 alleviates	O
@@ -228,7 +228,7 @@ objective	O
 inspired	O
 by	O
 the	O
-Cloze	B-TaskName
+Cloze	O
 task	O
 (	O
 Taylor	O

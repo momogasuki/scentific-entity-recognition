@@ -37,6 +37,6 @@ def conll2conll(data_file, dest_file):
 
 
 if __name__ == "__main__":
-    data_file = "../data/train_origin.conll"
-    dest_file = "../data/train_post.conll"
+    data_file = "../data/new_train_origin.conll"
+    dest_file = "../data/new_train_post.conll"
     conll2conll(data_file, dest_file)

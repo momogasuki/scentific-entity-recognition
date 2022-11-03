@@ -24,12 +24,12 @@ def conll2conll(data_file, dest_file):
                             prev_sen = prev_sen+c
                         if prev_sen != 'etal.':
                             num = 0
-                            w.write(char+"\t"+tag+"\n\n")
+                            w.write(char+" "+tag+"\n\n")
                         else:
-                            w.write(char+"\t"+tag+"\n")
+                            w.write(char+" "+tag+"\n")
                             num +=1
                     else:
-                        w.write(char+"\t"+tag+"\n")
+                        w.write(char+" "+tag+"\n")
                         num+=1
                 w.write("\n")
     return
